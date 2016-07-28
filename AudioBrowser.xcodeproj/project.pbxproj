@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AudioBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AudioBrowserAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* AudioBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* AudioBrowserViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* AudioBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AudioBrowserViewController.m */; };
+		722B894C1144925D00CCED16 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722B894B1144925D00CCED16 /* AudioToolbox.framework */; };
+		722B895A1144927000CCED16 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722B89591144927000CCED16 /* OpenAL.framework */; };
+		722B8A321144A25400CCED16 /* AppleOpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 722B8A2C1144A25400CCED16 /* AppleOpenALSupport.c */; };
+		722B8A331144A25400CCED16 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B8A2F1144A25400CCED16 /* Sound.m */; };
+		722B8A341144A25400CCED16 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B8A311144A25400CCED16 /* SoundManager.m */; };
+		7245773C114174ED004048E9 /* AudioBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7245773B114174ED004048E9 /* AudioBrowserView.m */; };
+		728E0CA81145F9C70063AB71 /* FeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728E0CA61145F9C70063AB71 /* FeedsViewController.m */; };
+		728E0CA91145F9C70063AB71 /* FeedsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728E0CA71145F9C70063AB71 /* FeedsViewController.xib */; };
+		72907D131159105A00CBBFC7 /* logo_circle2_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 72907D121159105A00CBBFC7 /* logo_circle2_small.png */; };
+		72907D361159141C00CBBFC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 72907D351159141C00CBBFC7 /* Default.png */; };
+		72CDA42C11507F3800CFB044 /* Fantasia_Mozart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72CDA42711507F3800CFB044 /* Fantasia_Mozart.mp3 */; };
+		72CDA42E11507F3800CFB044 /* Minuet_Bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72CDA42911507F3800CFB044 /* Minuet_Bach.mp3 */; };
+		72CDA42F11507F3800CFB044 /* Prelude_Chopin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72CDA42A11507F3800CFB044 /* Prelude_Chopin.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AudioBrowserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBrowserAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AudioBrowserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBrowserAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* AudioBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* AudioBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioBrowserViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* AudioBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBrowserViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* AudioBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBrowserViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* AudioBrowser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBrowser_Prefix.pch; sourceTree = "<group>"; };
+		722B894B1144925D00CCED16 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		722B89591144927000CCED16 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		722B8A2C1144A25400CCED16 /* AppleOpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = AppleOpenALSupport.c; path = "Audio classes/AppleOpenALSupport.c"; sourceTree = "<group>"; };
+		722B8A2D1144A25400CCED16 /* AppleOpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleOpenALSupport.h; path = "Audio classes/AppleOpenALSupport.h"; sourceTree = "<group>"; };
+		722B8A2E1144A25400CCED16 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sound.h; path = "Audio classes/Sound.h"; sourceTree = "<group>"; };
+		722B8A2F1144A25400CCED16 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = "Audio classes/Sound.m"; sourceTree = "<group>"; };
+		722B8A301144A25400CCED16 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = "Audio classes/SoundManager.h"; sourceTree = "<group>"; };
+		722B8A311144A25400CCED16 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundManager.m; path = "Audio classes/SoundManager.m"; sourceTree = "<group>"; };
+		7245773A114174ED004048E9 /* AudioBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioBrowserView.h; sourceTree = "<group>"; };
+		7245773B114174ED004048E9 /* AudioBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioBrowserView.m; sourceTree = "<group>"; };
+		728E0CA51145F9C70063AB71 /* FeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsViewController.h; sourceTree = "<group>"; };
+		728E0CA61145F9C70063AB71 /* FeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsViewController.m; sourceTree = "<group>"; };
+		728E0CA71145F9C70063AB71 /* FeedsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedsViewController.xib; path = Classes/FeedsViewController.xib; sourceTree = "<group>"; };
+		72907D121159105A00CBBFC7 /* logo_circle2_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_circle2_small.png; sourceTree = "<group>"; };
+		72907D351159141C00CBBFC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		72CDA42711507F3800CFB044 /* Fantasia_Mozart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fantasia_Mozart.mp3; sourceTree = "<group>"; };
+		72CDA42911507F3800CFB044 /* Minuet_Bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Minuet_Bach.mp3; sourceTree = "<group>"; };
+		72CDA42A11507F3800CFB044 /* Prelude_Chopin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Prelude_Chopin.mp3; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AudioBrowser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AudioBrowser-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				722B894C1144925D00CCED16 /* AudioToolbox.framework in Frameworks */,
+				722B895A1144927000CCED16 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AudioBrowserAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AudioBrowserAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* AudioBrowserViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* AudioBrowserViewController.m */,
+				7245773A114174ED004048E9 /* AudioBrowserView.h */,
+				7245773B114174ED004048E9 /* AudioBrowserView.m */,
+				728E0CA51145F9C70063AB71 /* FeedsViewController.h */,
+				728E0CA61145F9C70063AB71 /* FeedsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* AudioBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				722B895D1144927C00CCED16 /* Audio classes */,
+				722B89D01144A1A700CCED16 /* Audio files */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AudioBrowser_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72907D351159141C00CBBFC7 /* Default.png */,
+				72907D121159105A00CBBFC7 /* logo_circle2_small.png */,
+				2899E5210DE3E06400AC0155 /* AudioBrowserViewController.xib */,
+				728E0CA71145F9C70063AB71 /* FeedsViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* AudioBrowser-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				722B89591144927000CCED16 /* OpenAL.framework */,
+				722B894B1144925D00CCED16 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		722B895D1144927C00CCED16 /* Audio classes */ = {
+			isa = PBXGroup;
+			children = (
+				722B8A2C1144A25400CCED16 /* AppleOpenALSupport.c */,
+				722B8A2D1144A25400CCED16 /* AppleOpenALSupport.h */,
+				722B8A2E1144A25400CCED16 /* Sound.h */,
+				722B8A2F1144A25400CCED16 /* Sound.m */,
+				722B8A301144A25400CCED16 /* SoundManager.h */,
+				722B8A311144A25400CCED16 /* SoundManager.m */,
+			);
+			name = "Audio classes";
+			sourceTree = "<group>";
+		};
+		722B89D01144A1A700CCED16 /* Audio files */ = {
+			isa = PBXGroup;
+			children = (
+				72CDA42711507F3800CFB044 /* Fantasia_Mozart.mp3 */,
+				72CDA42911507F3800CFB044 /* Minuet_Bach.mp3 */,
+				72CDA42A11507F3800CFB044 /* Prelude_Chopin.mp3 */,
+			);
+			name = "Audio files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* AudioBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AudioBrowser" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioBrowser;
+			productName = AudioBrowser;
+			productReference = 1D6058910D05DD3D006BFB54 /* AudioBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AudioBrowser" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* AudioBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* AudioBrowserViewController.xib in Resources */,
+				728E0CA91145F9C70063AB71 /* FeedsViewController.xib in Resources */,
+				72CDA42C11507F3800CFB044 /* Fantasia_Mozart.mp3 in Resources */,
+				72CDA42E11507F3800CFB044 /* Minuet_Bach.mp3 in Resources */,
+				72CDA42F11507F3800CFB044 /* Prelude_Chopin.mp3 in Resources */,
+				72907D131159105A00CBBFC7 /* logo_circle2_small.png in Resources */,
+				72907D361159141C00CBBFC7 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AudioBrowserAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* AudioBrowserViewController.m in Sources */,
+				7245773C114174ED004048E9 /* AudioBrowserView.m in Sources */,
+				722B8A321144A25400CCED16 /* AppleOpenALSupport.c in Sources */,
+				722B8A331144A25400CCED16 /* Sound.m in Sources */,
+				722B8A341144A25400CCED16 /* SoundManager.m in Sources */,
+				728E0CA81145F9C70063AB71 /* FeedsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioBrowser_Prefix.pch;
+				INFOPLIST_FILE = "AudioBrowser-Info.plist";
+				PRODUCT_NAME = AudioBrowser;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioBrowser_Prefix.pch;
+				INFOPLIST_FILE = "AudioBrowser-Info.plist";
+				PRODUCT_NAME = AudioBrowser;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		72907D4611591AD100CBBFC7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Victor Wu";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1951D5DE-4917-459D-BE66-3CE1A4B514C9";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		72907D4711591AD100CBBFC7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Victor Wu";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AudioBrowser_Prefix.pch;
+				INFOPLIST_FILE = "AudioBrowser-Info.plist";
+				PRODUCT_NAME = AudioBrowser;
+				PROVISIONING_PROFILE = "1951D5DE-4917-459D-BE66-3CE1A4B514C9";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Victor Wu (85H6FTZKQC)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "02A07A49-1272-4A1E-A2ED-74EE117A52C0";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AudioBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				72907D4711591AD100CBBFC7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AudioBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				72907D4611591AD100CBBFC7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
